@@ -85,7 +85,7 @@ button, textarea:active {
 }
 
 hr {
-    width: 85%;
+    width: calc(100% - 2rem);
     height: 1px;
     border: 0;
     border-top: 1px solid rgb(214, 121, 0);

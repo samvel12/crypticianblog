@@ -90,7 +90,7 @@ class Account extends Component {
                     </div>
                     ))}
                     <div 
-                        className={isAdmin ? "element account-flex account-comment" : "element notadmin-flex-comment"}
+                        className={isAdmin ? "element account-flex account-comment" : "element account-flex notadmin-flex-comment"}
                     >
                         <h3>Your Comments</h3>
                         {commentList}
